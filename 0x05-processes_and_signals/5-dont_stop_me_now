@@ -3,6 +3,7 @@
 # The proesse is temrinated only using kill
 # trap '' 2 disables ctrl+c
 
+trap '' 2
 while true
 do
     echo "To infinity and beyond"
