@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Script creates infinite loop that displays text with sleep 2
+# The proesse is temrinated only using kill
+# trap '' 2 disables ctrl+c
+
+trap '' 2
+while true
+do
+    echo "To infinity and beyond"
+    sleep 2
+done
+echo "Terminated"
