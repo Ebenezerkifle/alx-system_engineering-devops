@@ -1,5 +1,3 @@
 #!/usr/bin/env bash
-# This script displays all list of currently running processes.
-# a:all processes, u: user oriented, u: to list the processes without a controlling terminal
-# x: w/wo TTY , f: show heirarchy.
+#Running processes: a:all processes, u: user oriented, u: to list the processes without a controlling terminal, x: w/wo TTY , f: show heirarchy.
 ps -auxf
