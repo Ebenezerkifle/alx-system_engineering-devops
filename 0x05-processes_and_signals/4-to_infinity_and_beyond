@@ -2,6 +2,7 @@
 # Script creates infinite loop that displays text with sleep 2
 # User needs to press Ctrl-C to stop
 
+trap 2
 while true
 do
     echo "To infinity and beyond"
