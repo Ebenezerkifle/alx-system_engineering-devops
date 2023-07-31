@@ -1,20 +1,15 @@
 #!/usr/bin/env bash
 # Displays a numbers from 1 - 20 and displays another texts next to it on 4th, 9th and 17th iteration
 
-index = 1
+index=1
 
 while [ $index -le 20 ]
 do
     echo $index
-    if [ $index -eq 4 ]
-    then
-        echo "bad luck from China"
-    elif [ $index -eq 9 ]
-    then
-        echo "bad luck from Japan"
-    elif [ $index -eq 17 ]
-    then
-        echo "bad luck from Italy"
-    fi
+    case "$index" in
+        "4") echo "bad luck from China";;
+        "9") echo "bad luck from Japan";;
+        "17") echo "bad luck from Italy";;
+    esac
     (( index++ ))
 done
