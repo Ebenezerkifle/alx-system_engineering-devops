@@ -2,13 +2,12 @@
 #Bash script that displays the time for 12 hours and 59 minutes
 
 hours = 0
-echo "Hour: $hours"
-while [hours -lt 13]; do
+while [$hours -lt 13]; do
+    echo "Hour: $hour"
     minutes = 1
-    while [minutes -lt 60]; do
-        echo $minutes
+    while [$minutes -lt 60]; do
+        echo "$minutes"
         minutes++
     done
-    echo "Hour: $hours"
     hours++
 done
