@@ -17,6 +17,3 @@
 - [First 5 Commands When I Connect on a Linux Server](https://www.linux.com/training-tutorials/first-5-commands-when-i-connect-linux-server/)
 - [server uptime and downtime](https://www.techtarget.com/whatis/definition/uptime-and-downtime)
 
-## More Info
-As explained in the web stack **debugging guide concept** above, ``telnet`` is a very good tool to check if sockets are open with ``telnet IP PORT``. For example, if you want to check if port 22 is open on ``web-02``:
-```
