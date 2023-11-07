@@ -6,7 +6,7 @@ import requests
 
 
 def top_ten(subreddit):
-    """Function that fetches top 10 gists"""
+    """Function that fetches top 10 posts"""
     apiUrl = "https://reddit.com/r/{}/hot.json".format(subreddit)
     userAgent = "Mozilla/5.0"
     limits = 10
